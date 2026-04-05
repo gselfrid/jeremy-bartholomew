@@ -214,3 +214,26 @@ figcaption{
     text-align: center;
 }
 
+@media screen and (min-width: 700px){
+    img{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+
+    figure{
+        width: 50%;
+    }
+
+    figure img{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 900px){
+    
+    main, header, nav{
+        width: 650px;
+        margin: auto;
+    }
+}
