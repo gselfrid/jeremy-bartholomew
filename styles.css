@@ -137,6 +137,7 @@ main{
 
 main section{
     padding: 1rem;
+    margin: 1rem auto;
 }
 
 #authentic, #death{
@@ -235,5 +236,9 @@ figcaption{
     main, header, nav{
         width: 650px;
         margin: auto;
+    }
+
+    main section{
+        margin: 1rem auto;
     }
 }
