@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Prata&display=swap');
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+:root{
+    --onyx: #171614;
+    --ghost: #f0eff4;
+    --bit-choc: #754043;
+    --pacific: #47a8bd;
+    --slate: #cae0eb;
+}
+
+body{
+    background-color: var(--onyx);
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+h1, h2, h3{
+    font-family: "Fredericka the Great", serif;
+}
+
+p, figcaption, li, a{
+    font-family: "Prata", serif;
+}
+
+header{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.5rem;
+    padding: 2rem;
+    align-items: center;
+    background-color: var(--onyx);
+}
+
+header h1{
+    color: var(--ghost);
+    font-size: 2rem;
+    margin: 0.5rem auto;
+}
+
+header p{
+    color: var(--ghost);
+}
+
+header img{
+    border-radius: 50%;
+    border: 5px dotted var(--bit-choc);
+    display: 100%;
+}
+
+nav{
+    background-color: var(--bit-choc);
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+nav ul{
+    margin: auto;
+    text-align: center;
+}
+
+nav a{
+    background-color: var(--pacific);
+    display: block;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--onyx);
+    border-radius: 15px;
+}
+
+nav a:hover{
+    background-color: var(--slate);
+    display: block;
+    margin: 1rem;
+    padding: 2rem;
+    text-decoration: none;
+    color: var(--onyx);
+    border-radius: 15px;
+    transition: 0.5s;
+}
+
+main{
+    border-radius: 15px;
+}
+
+main section{
+    padding: 1rem;
+}
+
+#authentic, #death{
+    background-color: var(--pacific);
+    border-radius: 15px;
+}
+
+#sellout{
+    background-color: var(--bit-choc);
+    border-radius: 15px;
+}
+
+main section div{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 15px;
+}
+
+.early-life, .first-album, .second-album, .tellme{
+    background-color: var(--ghost);
+}
+
+.first-release, .disappearance, .accident, .death{
+    background-color: var(--slate);
+}
+
+main section h2{
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 1rem;
+    color: var(--ghost);
+}
+
+main div h3{
+    color: var(--onyx);
+    font-size: 1.25rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+p, figcaption{
+    line-height: 1.5rem;
+}
+
+main section p{
+    margin: 1rem auto;
+    text-indent: 2rem;
+}
+
+#authentic figure, #death figure{
+    background-color: var(--bit-choc);
+    border: 2px solid var(--bit-choc);
+}
+
+#sellout figure{
+    background-color: var(--pacific);
+    border: 2px solid var(--pacific);
+}
+
+figure{
+    box-shadow: 2px 2px 5px grey;
+    border-radius: 15px;
+    margin: 2rem auto;
+}
+
+figure img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+figcaption{
+    padding: 1rem;
+    color: var(--ghost);
+    font-size: 0.75rem;
+    text-align: center;
+}
+
